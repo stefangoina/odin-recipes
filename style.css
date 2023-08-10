@@ -1,5 +1,8 @@
+html {
+  box-sizing: border-box;
+}
 body {
-  background: url(https://images8.alphacoders.com/632/632051.png) no-repeat
+  background: url(https://giffiles.alphacoders.com/150/15011.gif) no-repeat
     center center fixed;
   background-size: cover;
   text-shadow: 1px 1px 2px black;
@@ -7,12 +10,59 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.5em;
+}
+.box {
+  display: inline-block;
+}
+.recipe1,
+.recipe2,
+.recipe3 {
+  display: inline-block;
+  width: 250px;
+  margin: 8px;
+  padding: 16px;
+  border: 2px dashed white;
 }
 
-.recipe {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: baseline;
+.text {
+  margin-bottom: 5px;
+  padding: 8px;
+}
+h1,
+p {
+  text-align: center;
+  padding: 3px;
+}
+h1 {
+  background: rgba(252, 199, 50, 0.3);
+  border: 2.5px solid white;
+  text-decoration: underline;
+}
+.speech {
+  background: rgba(125, 124, 120, 0.2);
+  border: 2px dashed white;
+}
+
+.speech > p {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  margin: 3px;
+  border: 1px dashed #fff;
+}
+ol {
+  margin: 3px;
+  padding: 2px;
+  border: 1px dotted #fff;
+  list-style-type: upper-roman;
+  list-style-position: inside;
 }
